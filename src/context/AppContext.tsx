@@ -18,6 +18,16 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
       const sections = document.querySelectorAll("section[id]");
       const scrollPosition = window.scrollY + window.innerHeight / 2;
 
+      if (window.scrollY < 100) {
+        setActiveSection("home");
+        return;
+      }
+
+      if (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 50) {
+        setActiveSection("contact");
+        return;
+      }
+
       sections.forEach((section) => {
         const el = section as HTMLElement;
         const top = el.offsetTop;

@@ -1,12 +1,12 @@
-import { ArrowRight, Download } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 export default function Hero() {
   return (
     <section id="home" className="min-h-[85vh] flex items-center pt-24 pb-16 scroll-mt-20">
       <div className="max-w-3xl space-y-6">
-        <div className="inline-flex items-center gap-2 rounded-full border border-zinc-800 bg-zinc-900/50 px-4 py-1.5 text-xs text-zinc-400 font-mono">
-          <span className="h-2 w-2 rounded-full bg-emerald-500 animate-pulse"></span>
-          Open for Asynchronous Roles
+        <div className="inline-flex items-center justify-center gap-2 rounded-full border border-zinc-800 bg-zinc-900/50 px-4 py-1.5 text-xs text-zinc-400 font-mono h-8 leading-none">
+          <span className="h-2 w-2 rounded-full bg-emerald-500 animate-pulse block"></span>
+          <span className="pt-[1px]">Open for Asynchronous Roles</span>
         </div>
         
         <h1 className="text-4xl sm:text-6xl font-extrabold tracking-tight text-white leading-tight">

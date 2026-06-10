@@ -4,7 +4,7 @@ const SKILLS_DATA = [
   {
     category: "Front-End Development",
     icon: <Cpu className="w-4 h-4 text-blue-400" />,
-    items: ["React.js", "Vite Engine", "React Router", "Tailwind CSS", "HTML5 & CSS3 Architecture", "JavaScript (ES6+)"],
+    items: ["React.js", "Vite Engine", "React Router", "Tailwind CSS", "HTML5 & CSS4 Architecture", "TypeScript"],
   },
   {
     category: "Back-End & Data Architecture",
@@ -24,7 +24,7 @@ export default function Skills() {
       <div className="flex items-center gap-2 text-purple-400 font-mono text-xs uppercase tracking-widest mb-3">
         <Code2 className="w-3.5 h-3.5" /> Capabilities
       </div>
-      <h2 className="text-3xl font-bold tracking-tight mb-8">Technical Expertise</h2>
+      <h2 className="text-3xl font-bold tracking-tight mb-8 text-white">Technical Expertise</h2>
 
       <div className="grid gap-6 sm:grid-cols-3">
         {SKILLS_DATA.map((skill, index) => (

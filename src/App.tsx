@@ -27,7 +27,7 @@ export default function App() {
             <img 
               src={profilePic} 
               alt="Yosvaldo Ongko Cahyadi" 
-              className="w-full h-full object-cover object-center scale-100 transition-transform duration-700 group-hover:scale-102"
+              className="w-full h-full object-cover object-center scale-100 transition-transform duration-700 group-hover:scale-[1.02]"
               loading="eager"
             />
           </div>
@@ -46,8 +46,8 @@ export default function App() {
           <Testimonials />
           <Contact />
 
-          <footer className="pt-8 border-t border-zinc-900 text-center text-xs text-zinc-600 font-mono">
-            © {new Date().getFullYear()} Yosvaldo Ongko Cahyadi. Systemized for high PageSpeed scoring metrics.
+          <footer className="pt-8 border-t border-zinc-900 text-right text-xs text-zinc-600 font-mono">
+            © {new Date().getFullYear()} Yosvaldo Ongko Cahyadi
           </footer>
         </main>
       </div>
