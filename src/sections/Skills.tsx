@@ -4,17 +4,17 @@ const SKILLS_DATA = [
   {
     category: "Front-End Development",
     icon: <Cpu className="w-4 h-4 text-blue-400" />,
-    items: ["React.js", "Vite Engine", "React Router", "Tailwind CSS", "HTML5 & CSS4 Architecture", "TypeScript"],
+    items: ["React Vite", "React Router", "Tailwind CSS", "TypeScript"],
   },
   {
     category: "Back-End & Data Architecture",
     icon: <Server className="w-4 h-4 text-purple-400" />,
-    items: ["Express.js", "Node.js runtime", "Prisma ORM", "PostgreSQL Engine", "RESTful API Integration", "Relational Modeling"],
+    items: ["Express.js", "Node.js", "Prisma ORM", "PostgreSQL", "REST API"],
   },
   {
     category: "DevOps & Core Infrastructure",
     icon: <Terminal className="w-4 h-4 text-emerald-400" />,
-    items: ["Git & Versioning", "GitHub Actions", "Docker Sandbox environments", "Linux Server Execution", "Postman APIs testing"],
+    items: ["Git & Versioning", "GitHub", "Postman APIs testing"],
   },
 ];
 
