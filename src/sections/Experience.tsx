@@ -10,7 +10,7 @@ export default function Experience() {
 
       <div className="space-y-12">
         <div className="relative pl-6 border-l border-zinc-800">
-          <div className="absolute -left-[4.5px] top-1.5 h-2 w-2 rounded-full bg-blue-400" />
+          <div className="absolute left-[-4.5px] top-1.5 h-2 w-2 rounded-full bg-blue-400" />
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1">
             <h3 className="text-lg font-bold text-zinc-100">Co-Founder & Operations Lead</h3>
             <span className="text-xs font-mono text-zinc-500">May 2020 — Present</span>
@@ -25,7 +25,7 @@ export default function Experience() {
         </div>
 
         <div className="relative pl-6 border-l border-zinc-800">
-          <div className="absolute -left-[4.5px] top-1.5 h-2 w-2 rounded-full bg-blue-400" />
+          <div className="absolute left-[-4.5px] top-1.5 h-2 w-2 rounded-full bg-blue-400" />
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1">
             <h3 className="text-lg font-bold text-zinc-100">Co-Founder & Lead Developer</h3>
             <span className="text-xs font-mono text-zinc-500">Feb 2025 — Present</span>

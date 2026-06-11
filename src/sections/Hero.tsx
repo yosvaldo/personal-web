@@ -9,11 +9,11 @@ export default function Hero() {
       <div className="max-w-3xl space-y-6">
         <div className="inline-flex items-center justify-center gap-2 rounded-full border border-zinc-800 bg-zinc-900/50 px-4 py-1.5 text-xs text-zinc-400 font-mono h-8 leading-none">
           <span className="h-2 w-2 rounded-full bg-emerald-500 animate-pulse block"></span>
-          <span className="pt-[1px]">Open for Asynchronous Roles</span>
+          <span className="pt-px">Open for Asynchronous Roles</span>
         </div>
         
         <h1 className="text-4xl sm:text-6xl font-extrabold tracking-tight text-white leading-tight">
-          Hi, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">Yosvaldo Ongko Cahyadi</span>
+          Hi, I'm <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-400 to-purple-400">Yosvaldo Ongko Cahyadi</span>
         </h1>
         
         <p className="text-xl sm:text-2xl font-semibold text-zinc-300">

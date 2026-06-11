@@ -13,8 +13,8 @@ export default function App() {
     <div className="relative min-h-screen bg-zinc-950 text-zinc-50 antialiased selection:bg-purple-500/30">
       
       <div className="fixed inset-0 -z-50 overflow-hidden pointer-events-none opacity-40">
-        <div className="absolute top-[-10%] left-[20%] w-[800px] h-[800px] rounded-full bg-blue-500/10 blur-[160px]" />
-        <div className="absolute bottom-[10%] right-[-10%] w-[600px] h-[600px] rounded-full bg-purple-500/10 blur-[140px]" />
+        <div className="absolute top-[-10%] left-[20%] w-200 h-200 rounded-full bg-blue-500/10 blur-[160px]" />
+        <div className="absolute bottom-[10%] right-[-10%] w-150 h-150 rounded-full bg-purple-500/10 blur-[140px]" />
       </div>
 
       <FloatingNav />
@@ -23,7 +23,7 @@ export default function App() {
         
         <aside className="hidden lg:block lg:col-span-5 xl:col-span-4 h-screen sticky top-0 py-20">
           <div className="w-full h-full bg-zinc-900 rounded-3xl border border-zinc-900 flex items-end justify-center overflow-hidden relative group">
-            <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-transparent to-transparent z-10 opacity-60" />
+            <div className="absolute inset-0 bg-linear-to-t from-zinc-950 via-transparent to-transparent z-10 opacity-60" />
             <img 
               src={profilePic} 
               alt="Yosvaldo Ongko Cahyadi" 

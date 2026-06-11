@@ -59,7 +59,7 @@ export default function Portfolio() {
       <div className="space-y-24">
         {PROJECTS.map((project, idx) => (
           <div key={idx} className="group relative border-l border-zinc-800 pl-6 md:pl-10 space-y-6">
-            <div className="absolute -left-[4.5px] top-1.5 h-2 w-2 rounded-full bg-cyan-400" />
+            <div className="absolute left-[-4.5px] top-1.5 h-2 w-2 rounded-full bg-cyan-400" />
             
             <div className="space-y-1">
               <h3 className="text-xl sm:text-2xl font-bold text-white tracking-tight">{project.title}</h3>
@@ -70,7 +70,7 @@ export default function Portfolio() {
               {project.images.map((imgSrc, imgIdx) => (
                 <div 
                   key={imgIdx} 
-                  className="relative rounded-xl overflow-hidden border border-zinc-900 bg-zinc-900/40 aspect-[4/3] group/img shadow-md hover:border-zinc-800 transition-all duration-300"
+                  className="relative rounded-xl overflow-hidden border border-zinc-900 bg-zinc-900/40 aspect-4/3 group/img shadow-md hover:border-zinc-800 transition-all duration-300"
                 >
                   <img 
                     src={imgSrc} 
