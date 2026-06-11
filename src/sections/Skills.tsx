@@ -21,7 +21,7 @@ const SKILLS_DATA = [
 export default function Skills() {
   return (
     <section id="skills" className="py-16 border-t border-zinc-900/60 scroll-mt-20">
-      <div className="flex items-center gap-2 text-purple-400 font-mono text-xs uppercase tracking-widest mb-3">
+      <div className="flex items-center gap-2 text-blue-400 font-mono text-xs uppercase tracking-widest mb-3">
         <Code2 className="w-3.5 h-3.5" /> Capabilities
       </div>
       <h2 className="text-3xl font-bold tracking-tight mb-8 text-white">Technical Expertise</h2>

@@ -51,20 +51,19 @@ const PROJECTS = [
 export default function Portfolio() {
   return (
     <section id="portfolio" className="py-16 border-t border-zinc-900/60 scroll-mt-20">
-      <div className="flex items-center gap-2 text-cyan-400 font-mono text-xs uppercase tracking-widest mb-3">
+      <div className="flex items-center gap-2 text-blue-400 font-mono text-xs uppercase tracking-widest mb-3">
         <FolderGit2 className="w-3.5 h-3.5" /> Proven Track Record
       </div>
-      <h2 className="text-3xl font-bold tracking-tight mb-8 text-white">Selected Case Studies</h2>
+      <h2 className="text-3xl font-bold tracking-tight mb-8 text-white">Selected Portfolios</h2>
 
       <div className="space-y-24">
         {PROJECTS.map((project, idx) => (
           <div key={idx} className="group relative border-l border-zinc-800 pl-6 md:pl-10 space-y-6">
-            {/* Always cyan-400 dot layout instantly */}
             <div className="absolute -left-[4.5px] top-1.5 h-2 w-2 rounded-full bg-cyan-400" />
             
             <div className="space-y-1">
               <h3 className="text-xl sm:text-2xl font-bold text-white tracking-tight">{project.title}</h3>
-              <p className="text-xs font-mono text-cyan-400/90 tracking-wide">{project.stack}</p>
+              <p className="text-xs font-mono text-blue-400/90 tracking-wide">{project.stack}</p>
             </div>
 
             <div className="grid gap-4 sm:grid-cols-2 mt-4">

@@ -10,7 +10,7 @@ const REVIEWS = [
 export default function Testimonials() {
   return (
     <section id="testimonials" className="scroll-mt-20">
-      <div className="flex items-center gap-2 text-emerald-400 font-mono text-xs uppercase tracking-widest mb-3">
+      <div className="flex items-center gap-2 text-blue-400 font-mono text-xs uppercase tracking-widest mb-3">
         <MessageSquare className="w-3.5 h-3.5" /> Social Proof
       </div>
       <h2 className="text-3xl font-bold tracking-tight mb-8">Client Testimonials</h2>
