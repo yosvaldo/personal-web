@@ -1,6 +1,9 @@
 import { ArrowRight } from "lucide-react";
+import { useApp } from "../context/AppContext";
 
 export default function Hero() {
+  const { scrollToSection } = useApp();
+
   return (
     <section id="home" className="min-h-[85vh] flex items-center pt-24 pb-16 scroll-mt-20">
       <div className="max-w-3xl space-y-6">
@@ -22,19 +25,19 @@ export default function Hero() {
         </p>
 
         <div className="pt-4 flex flex-wrap gap-4">
-          <a
-            href="#portfolio"
-            className="inline-flex items-center gap-2 rounded-xl bg-white px-5 py-3 text-sm font-semibold text-zinc-950 transition hover:bg-zinc-200 shadow-md group"
+          <button
+            onClick={() => scrollToSection("portfolio")}
+            className="inline-flex items-center gap-2 rounded-xl bg-white px-5 py-3 text-sm font-semibold text-zinc-950 transition hover:bg-zinc-200 shadow-md group cursor-pointer"
           >
             View Portfolio
             <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
-          </a>
-          <a
-            href="#contact"
-            className="inline-flex items-center gap-2 rounded-xl border border-zinc-800 bg-zinc-900/30 px-5 py-3 text-sm font-semibold text-zinc-300 transition hover:bg-zinc-900"
+          </button>
+          <button
+            onClick={() => scrollToSection("contact")}
+            className="inline-flex items-center gap-2 rounded-xl border border-zinc-800 bg-zinc-900/30 px-5 py-3 text-sm font-semibold text-zinc-300 transition hover:bg-zinc-900 cursor-pointer"
           >
             Contact Me
-          </a>
+          </button>
         </div>
       </div>
     </section>

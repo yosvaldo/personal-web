@@ -58,8 +58,9 @@ export default function Portfolio() {
 
       <div className="space-y-24">
         {PROJECTS.map((project, idx) => (
-          <div key={idx} className="group relative border-l border-zinc-800 pl-6 md:pl-10 space-y-6 transition-colors duration-300 hover:border-zinc-700">
-            <div className="absolute -left-[4.5px] top-1.5 h-2 w-2 rounded-full bg-zinc-800 group-hover:bg-cyan-400 transition-colors duration-300" />
+          <div key={idx} className="group relative border-l border-zinc-800 pl-6 md:pl-10 space-y-6">
+            {/* Always cyan-400 dot layout instantly */}
+            <div className="absolute -left-[4.5px] top-1.5 h-2 w-2 rounded-full bg-cyan-400" />
             
             <div className="space-y-1">
               <h3 className="text-xl sm:text-2xl font-bold text-white tracking-tight">{project.title}</h3>
@@ -74,7 +75,7 @@ export default function Portfolio() {
                 >
                   <img 
                     src={imgSrc} 
-                    alt={`${project.title} Interface view ${imgIdx + 1}`} 
+                    alt={`${project.title} View ${imgIdx + 1}`} 
                     className="w-full h-full object-cover object-top transition-transform duration-500 ease-out group-hover/img:scale-[1.02]"
                     loading="lazy"
                   />
@@ -83,22 +84,10 @@ export default function Portfolio() {
             </div>
 
             <div className="grid gap-4 bg-zinc-900/20 rounded-2xl border border-zinc-900 p-6 text-sm sm:text-base text-zinc-400 leading-relaxed">
-              <p>
-                <strong className="text-zinc-200 font-medium block text-xs uppercase tracking-wider mb-1 font-mono">Situation</strong> 
-                {project.situation}
-              </p>
-              <p>
-                <strong className="text-zinc-200 font-medium block text-xs uppercase tracking-wider mb-1 font-mono">Task</strong> 
-                {project.task}
-              </p>
-              <p>
-                <strong className="text-zinc-200 font-medium block text-xs uppercase tracking-wider mb-1 font-mono">Action</strong> 
-                {project.action}
-              </p>
-              <p>
-                <strong className="block text-xs uppercase tracking-wider mb-1 font-mono font-semibold text-emerald-400">Result</strong> 
-                {project.result}
-              </p>
+              <p><strong className="text-zinc-200 font-medium block text-xs uppercase tracking-wider mb-1 font-mono">Situation</strong> {project.situation}</p>
+              <p><strong className="text-zinc-200 font-medium block text-xs uppercase tracking-wider mb-1 font-mono">Task</strong> {project.task}</p>
+              <p><strong className="text-zinc-200 font-medium block text-xs uppercase tracking-wider mb-1 font-mono">Action</strong> {project.action}</p>
+              <p><strong className="block text-xs uppercase tracking-wider mb-1 font-mono font-semibold text-emerald-400">Result</strong> {project.result}</p>
             </div>
           </div>
         ))}
