@@ -17,10 +17,10 @@ export default function Experience() {
           </div>
           <p className="text-sm font-medium text-pink-400/90 font-mono">Phenex Fishing</p>
           <ul className="mt-4 space-y-2 text-sm text-zinc-400 leading-relaxed list-disc list-inside">
-            <li>Spearheaded nationwide technical operations and pipeline configurations, driving the deployment and fulfillment of <strong className="text-zinc-200">240,000+ total logistics products</strong>.</li>
-            <li>Optimized B2B distribution systems, moving over <strong className="text-zinc-200">87,000+ continuous best-seller items through regional distributors</strong>.</li>
-            <li>Scaled independent direct channels, logging over <strong className="text-zinc-200">12,000+ transaction orders through our dedicated online marketplace</strong> system.</li>
-            <li>Sustained reliable operational mechanics across a network of <strong className="text-zinc-200">20+ active distributors</strong> nationwide.</li>
+            <li>Managed nationwide operational systems supporting the fulfillment of <strong className="text-zinc-200">240,000+ logistics products</strong> across Indonesia.</li>
+            <li>Optimized B2B distribution systems, moving over <strong className="text-zinc-200">87,000+ best-selling products</strong> through regional distributors.</li>
+            <li>Generated <strong className="text-zinc-200">12,000+ direct-to-consumer orders</strong> through company-owned e-commerce channels.</li>
+            <li>Coordinated operations across <strong className="text-zinc-200">20+ active distributors</strong> nationwide.</li>
           </ul>
         </div>
 
@@ -32,9 +32,8 @@ export default function Experience() {
           </div>
           <p className="text-sm font-medium text-purple-400/90 font-mono">Money Mate Startup</p>
           <ul className="mt-4 space-y-2 text-sm text-zinc-400 leading-relaxed list-disc list-inside">
-            <li>Direct product scoping, technical architecture scaling models, and secure structural data delivery pipelines.</li>
-            <li>Successfully negotiated and <strong className="text-zinc-200">secured our first venture capital funding round</strong> by proving engineering feasibility indicators.</li>
-            <li>Architected a custom consumer-to-guardian dual platform platform layout designed to enhance real-time milestone monitoring workflows.</li>
+            <li>Led product planning, application architecture, and full-stack development from concept to deployment.</li>
+            <li>Helped secure the <strong className="text-zinc-200">company's first funding round</strong> by validating product feasibility and demonstrating technical execution.</li>
           </ul>
         </div>
       </div>

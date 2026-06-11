@@ -33,7 +33,7 @@ export default function Contact() {
               <input type="email" required className="w-full px-4 py-3 text-sm rounded-xl border border-zinc-900 bg-zinc-900/30 text-white focus:outline-none focus:border-zinc-700 transition" placeholder="your@email.com" />
             </div>
             <div>
-              <label className="block text-xs font-mono uppercase tracking-wider text-zinc-500 mb-2">Message Payload</label>
+              <label className="block text-xs font-mono uppercase tracking-wider text-zinc-500 mb-2">Message</label>
               <textarea rows={4} required className="w-full px-4 py-3 text-sm rounded-xl border border-zinc-900 bg-zinc-900/30 text-white focus:outline-none focus:border-zinc-700 transition resize-none" placeholder="Let's build something scalable..."></textarea>
             </div>
             <button
@@ -49,7 +49,7 @@ export default function Contact() {
 
         <div className="md:col-span-2 flex flex-col justify-between gap-6">
           <div className="p-5 rounded-2xl bg-zinc-900/20 border border-zinc-900 space-y-2">
-            <h4 className="text-xs font-mono uppercase text-zinc-500 tracking-widest">Direct Route</h4>
+            <h4 className="text-xs font-mono uppercase text-zinc-500 tracking-widest">Email Me</h4>
             <a href="mailto:yosvaldo.oc@gmail.com" className="text-sm font-semibold text-zinc-200 hover:text-blue-400 transition break-all">
               yosvaldo.oc@gmail.com
             </a>

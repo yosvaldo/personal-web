@@ -17,11 +17,11 @@ export default function Hero() {
         </h1>
         
         <p className="text-xl sm:text-2xl font-semibold text-zinc-300">
-          Full-Stack Web Developer & Systems Engineer
+          Full-Stack Web Developer
         </p>
         
         <p className="text-zinc-400 text-base sm:text-lg leading-relaxed max-w-2xl">
-          I bridge software architecture, data infrastructure, and commercial workflows to engineer high-performance systems. Specializing in scaling applications with strict data execution patterns.
+          Building scalable web applications with React, TypeScript, Node.js, and PostgreSQL - turning complex business requirements into reliable software solutions.
         </p>
 
         <div className="pt-4 flex flex-wrap gap-4">
