@@ -14,7 +14,7 @@ const SKILLS_DATA = [
   {
     category: "DevOps & Core Infrastructure",
     icon: <Terminal className="w-4 h-4 text-emerald-400" />,
-    items: ["Git & Versioning", "GitHub", "Postman APIs testing"],
+    items: ["Git & Versioning", "GitHub", "Postman APIs testing", "Vercel Deployment"],
   },
 ];
 
