@@ -13,7 +13,7 @@ export default function About() {
       </div>
 
       <div className="grid gap-4 mt-12 sm:grid-cols-3">
-        <div className="p-5 rounded-2xl bg-zinc-900/30 border border-zinc-900 hover:border-zinc-800" >
+        <div className="p-5 rounded-2xl bg-zinc-900/30 border border-zinc-900 hover:border-zinc-800">
           <Zap className="w-5 h-5 text-amber-400 mb-3" />
           <h4 className="text-sm font-semibold text-zinc-200 mb-1">Reliable Execution</h4>
           <p className="text-xs text-zinc-500 leading-normal">Committed to delivering high-quality solutions on time without compromising maintainability.</p>
